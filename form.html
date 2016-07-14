@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Html form</title>
+<script type="text/javascript">
+function hello(){
+  alert("hello");
+}
+</script>
+</head>
+<body>
+<table>
+<tr>
+<td>Firstname:</td>
+<td><input type="text" name="firstname"></td>
+</tr>
+<tr>
+<td>Lastname:</td>
+<td><input type="text" name="lastname"></td>
+</tr>
+<tr>
+<td>UserID:</td>
+<td><input type="text" name="user_id"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td><input type="radio" name="gender" value="male">Male</td>
+<td><input type="radio" name="gender" value="female">Female</td>
+</tr>
+<tr>
+<td colspan="2">Address:<br><textarea rows="5" cols="30" name="address">address...
+</textarea></td>
+</tr>
+<tr>
+<td><select name="dropdown"> 
+<option value="Maths">Maths</option>
+<option value="Phy">phy</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><input type="submit" name="submit" value="submit" onclick="hello()"></td>
+</tr>
