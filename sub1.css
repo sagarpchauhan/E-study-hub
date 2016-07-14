@@ -1,0 +1,129 @@
+#aboutpage{
+    background-color: #ccffcc;
+    padding: 25px;
+    height: 300px;
+    width: 500px;
+    border: 10px solid aliceblue;
+    margin-left: 40%;
+}
+
+body{
+	background-color: aliceblue;
+}
+h1{
+    color: red;
+    font-family:cursive;
+    font-stretch: expanded;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h4{
+    color: red;
+    font-family: sans-serif;
+}
+h3{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+#menubar table tr td a
+{
+    display: block;
+	color: black;
+    
+}
+#menubar table tr td a:hover
+{
+    display: block;
+	color: black;
+    
+}
+#menubar table tr td:hover{
+    backface-visibility: hidden;
+	 background-color: lime ;
+      font-family: sans-serif;
+    color: black;
+	
+}
+#menu1 table tr td a:hover
+{
+    background-color: lime ;
+    font-family: sans-serif;
+    color: bisque;
+    display: block;
+}
+#menu1 table tr td:hover
+{
+    background-color: lime;
+    font-family: sans-serif;
+    color: bisque;
+	backface-visibility: hidden;
+}
+ #menu1 table tr th{
+        
+        background-color: #CCFFBB;
+       }
+#menu2 table
+{
+    margin-left: 350px;
+}
+#header table tr td:hover
+{
+    background-color: whitesmoke;
+    color: red;
+}
+#header table tr td a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+#header
+{
+    margin-left: 20%;
+}
+#header table tr td a:hover{
+    color: lime;
+    font-family: sans-serif;
+    display: block;
+}
+#register table tr{
+    height: 40px;
+    }
+    #register table tr td{
+        font-size: 16px;
+        font-kerning: auto;
+    } 
+.styletxt1{
+        border: 1px;
+        border-radius: 6px;
+} 
+.styletxt3{
+        border: 1px;
+        border-radius: 6px;
+	height: 25px;
+}    
+    .styletxt{
+        border: 1px solid burlywood;
+        border-radius: 6px;
+        width: 200px;
+        height: 25px;
+    }
+ .styletxt2{
+        border: 1px solid burlywood;
+        border-radius: 6px;
+        width: 300px;
+        height: 25px;
+    }
+    #menu2 table tr th{
+        color: black;
+        background-color: #ccffcc;
+       }    /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 28, 2015, 12:47:27 PM
+    Author     : HP
+*/
